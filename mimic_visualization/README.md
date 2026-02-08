@@ -1,0 +1,1 @@
+The MIMIC Visualization notebook shows different ways to visualize data from MIMIC III Demo dataset (available in the `data` folder). The notebook must be run in the Google Colab environment. If you want to run in the local machine, mention file path while running the `pd.csv` file.
