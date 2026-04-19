@@ -1,0 +1,3 @@
+Feature Set,Features,Mortality Acc,Mortality F1,LLM Features Used
+EHR numeric only,11,65.0%,0.639,None
+EHR + LLM confidence + prediction,13,69.0%,0.680,"CoT confidence, CoT mortality prediction"
