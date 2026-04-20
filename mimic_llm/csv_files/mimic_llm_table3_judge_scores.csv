@@ -1,101 +1,101 @@
 subject_id,clinical_accuracy,logical_coherence,evidence_usage,prediction_correctness,hallucination_risk,overall_score,judge_comment
-32763,3,3,3,1,5,3.0,The reasoning missed the severity of the patient's condition and failed to predict mortality and length of stay correctly.
-49141,2,3,2,1,4,2.0,The reasoning fails to address the severity of liver failure and incorrectly assesses the patient's stability and prognosis.
-30488,3,3,3,1,4,3.0,The reasoning partially identified key issues but missed critical aspects like the mortality risk and incomplete medication analysis.
-10549,4,4,4,1,5,3.0,The reasoning is accurate and coherent but fails to predict mortality and length of stay correctly.
-10185,4,4,4,1,5,3.0,"The reasoning is mostly accurate and coherent, but it fails to predict the patient's mortality and length of stay correctly."
-1790,4,4,4,1,5,3.6,The reasoning is clinically accurate and coherent but fails to predict mortality and length of stay correctly.
-55725,4,3,4,3,5,4.0,The reasoning is mostly accurate but lacks completion and prediction correctness.
-75159,3,3,3,1,4,3.0,The reasoning misses the severity of intracranial hemorrhage and incorrectly predicts outcomes.
-32124,4,3,4,1,4,3.0,The reasoning identifies key clinical issues but lacks a complete analysis of the patient's condition and prediction correctness.
-71206,4,4,4,3,5,4.0,The AI reasoning accurately identifies key clinical issues but misses the mortality prediction.
-1299,3,3,3,1,5,3.0,The reasoning identifies some key issues but misses the critical nature of the head bleed and incorrectly predicts outcomes.
-88909,3,3,3,1,5,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
-32476,3,3,3,1,4,3.0,"The reasoning misses critical issues like the patient's mortality and long length of stay, and lacks depth in assessing potential causes of fever."
-23547,3,3,3,1,5,3.0,The reasoning missed the critical nature of the patient's condition and failed to predict mortality and length of stay correctly.
-1782,3,3,3,1,5,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
-51403,3,3,3,1,5,3.0,The reasoning identifies hemodynamic instability but fails to predict mortality and length of stay correctly.
-1470,3,3,3,1,5,3.0,The reasoning missed the severity of the variceal bleed and incorrectly predicted outcomes.
-18984,3,3,3,1,5,3.0,The reasoning identifies some clinical issues but fails to predict mortality and length of stay correctly.
-73606,3,3,3,1,5,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
-59389,4,4,4,3,5,4.0,The AI correctly identified hypoxemia as critical but missed the potential impact of the gastrointestinal bleed on mortality.
-98606,4,4,4,3,5,4.0,"The AI reasoning accurately identified key clinical issues and used evidence well, but only one prediction was correct."
-74584,4,4,4,1,5,3.0,The reasoning is clinically accurate and coherent but fails to predict mortality and length of stay correctly.
-28198,4,3,4,3,5,4.0,The reasoning is mostly accurate but lacks completion and prediction correctness.
-22496,4,4,4,3,5,4.0,The AI reasoning accurately identified key clinical issues but missed the mortality prediction.
-15997,3,3,3,1,5,3.0,The reasoning partially identified key issues but failed to predict mortality and length of stay correctly.
-57581,4,4,4,3,5,4.0,The reasoning accurately identifies hemodynamic instability but lacks completion and prediction correctness is partial.
-60477,3,4,3,1,5,3.0,The reasoning missed the severity of the patient's condition leading to mortality and short LOS.
-20005,3,3,3,1,4,3.0,"The reasoning missed key issues like the patient's age and post-seizure risks, and failed to predict mortality and LOS correctly."
-29636,3,3,3,1,4,3.0,"The reasoning missed the patient's mortality and short length of stay, and did not fully address the implications of the medications and lab results."
-5387,4,4,4,1,5,3.0,The reasoning accurately identifies clinical issues but fails in prediction correctness.
-12551,3,3,3,1,4,3.0,The reasoning missed critical issues like the patient's mortality and did not fully analyze the implications of the medications.
-7062,4,4,4,3,5,4.0,The reasoning accurately identifies key clinical issues but misses the mortality prediction.
-58422,3,3,3,1,4,3.0,"The reasoning identifies some key issues but misses the significance of anemia and GI bleed, and fails to predict mortality and length of stay correctly."
-81849,4,4,4,1,5,3.0,The reasoning is accurate and coherent but fails to predict mortality and length of stay correctly.
-92625,3,3,3,3,4,3.0,The reasoning identifies some clinical issues but lacks depth and misses the patient's mortality outcome.
-56184,3,3,3,1,5,3.0,The reasoning identifies some key issues but lacks depth and misses the mortality prediction.
-3563,4,3,4,3,5,4.0,The reasoning accurately identifies hemodynamic instability but lacks completion and prediction correctness.
-18611,3,3,3,1,4,3.0,The reasoning missed the significance of elevated WBC and failed to predict mortality and length of stay correctly.
-85407,3,3,3,1,5,3.0,The reasoning identifies some key issues but fails to address the mortality and length of stay predictions.
-4811,3,4,3,1,5,3.0,The reasoning identifies some clinical issues but misses the severity of the patient's condition and incorrectly predicts outcomes.
-81283,3,3,3,1,5,3.0,The reasoning missed the critical nature of the patient's condition and incorrectly predicted outcomes.
-64119,3,3,3,1,4,3.0,The reasoning identifies some key issues but misses the critical nature of the patient's condition and incorrectly predicts outcomes.
-2014,4,4,4,1,5,3.0,The reasoning is accurate and coherent but fails to predict mortality and length of stay correctly.
-20143,3,3,3,1,5,3.0,The AI identified some clinical issues but missed the severity of the patient's condition and failed to predict outcomes correctly.
-24582,3,4,3,1,5,3.0,The reasoning identifies some clinical issues but misses the severity of the patient's condition and incorrectly predicts outcomes.
-26630,4,4,4,3,5,4.0,The reasoning correctly identifies key issues but misses the severity of potential sepsis.
-70609,3,3,3,1,5,3.0,The reasoning misses the critical nature of the patient's condition and fails to predict mortality and length of stay correctly.
-84360,3,3,3,1,5,3.0,The reasoning missed the critical nature of the patient's condition and failed to predict mortality and length of stay correctly.
-32711,3,3,3,1,5,3.0,The reasoning missed the critical nature of the elevated WBC and failed to predict mortality and length of stay correctly.
-24723,3,3,3,1,5,3.0,The reasoning identifies some clinical issues but fails to predict mortality and length of stay.
-21447,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks medication information."
-50006,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
-49443,3,3,3,3,5,3.0,The reasoning identifies key issues but lacks depth and omits details on overdose management.
-16797,3,3,3,3,4,3.0,The reasoning is incomplete and lacks depth in addressing the primary diagnosis and its implications.
-88982,4,3,4,3,5,4.0,The reasoning is mostly accurate but lacks completion and coherence in the final step.
-80007,4,4,4,5,5,4.4,"The reasoning is accurate and coherent, with correct predictions and no hallucinations."
-11732,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it does not address the long length of stay prediction."
-7836,4,3,4,3,5,4.0,"The reasoning is mostly accurate but incomplete, missing full medication analysis and prediction details."
-30085,4,4,4,5,5,4.4,"The reasoning is accurate and coherent, with correct predictions and no hallucinations, but lacks depth in exploring the cause of weakness."
-86313,3,3,3,3,5,3.0,The reasoning identifies some key issues but lacks depth and misses the primary diagnosis context.
+32763,3,3,3,1,4,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
+49141,3,3,3,1,4,3.0,The reasoning missed the patient's mortality and did not fully address the implications of liver failure.
+30488,3,3,3,1,5,3.0,The reasoning identifies some clinical issues but fails to predict mortality and length of stay correctly.
+10549,3,3,3,1,5,3.0,The reasoning identifies key issues but fails to predict mortality and length of stay correctly.
+10185,3,3,3,1,4,3.0,The reasoning partially identified key issues but missed the severity of the infection and mortality risk.
+1790,3,3,3,3,5,3.0,The reasoning identifies key issues but underestimates severity and misses mortality prediction.
+55725,3,4,3,1,5,3.0,The reasoning missed the critical nature of the low blood pressure and failed to predict mortality and length of stay correctly.
+75159,3,3,3,1,4,3.0,The reasoning missed the patient's mortality and did not fully address the implications of the intracranial hemorrhage.
+32124,3,3,3,1,4,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
+71206,4,3,4,3,5,4.0,The reasoning accurately identifies key clinical issues but lacks a complete analysis of liver failure and prediction correctness is partial.
+1299,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, but it misses the mortality prediction."
+88909,4,4,4,1,5,3.0,The reasoning is accurate and coherent but fails to predict mortality and length of stay correctly.
+32476,3,4,3,1,5,3.0,"The reasoning missed the patient's eventual mortality and long length of stay, and did not fully explore the implications of the elevated WBC count."
+23547,3,4,3,1,5,3.0,The reasoning identifies key issues but underestimates the severity and fails to predict mortality and length of stay correctly.
+1782,4,4,4,1,5,3.6,The reasoning is mostly accurate and coherent but fails to predict mortality and length of stay correctly.
+51403,3,3,3,1,5,3.0,The reasoning missed the critical nature of the low blood pressure and failed to predict mortality and length of stay correctly.
+1470,3,3,3,1,4,3.0,The reasoning missed the severity of the variceal bleed and incorrectly assessed the mortality and length of stay.
+18984,3,3,3,1,4,3.0,The reasoning identifies key issues but fails to predict mortality and length of stay correctly.
+73606,3,3,3,1,5,3.0,The reasoning missed the severity of the patient's condition and incorrectly assessed hemodynamic stability.
+59389,4,5,4,3,5,4.0,The AI accurately identified key clinical issues but missed the mortality prediction.
+98606,4,4,4,3,5,4.0,"The AI reasoning accurately identifies key clinical issues and uses evidence well, but only predicts one outcome correctly."
+74584,3,3,3,3,4,3.0,The reasoning identifies renal dysfunction but misses the potential impact of medications on mental status.
+28198,3,3,3,1,4,3.0,The reasoning identifies some key issues but lacks depth and misses the mortality prediction.
+22496,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but the prediction is only partially correct."
+15997,3,3,3,1,5,3.0,The reasoning missed the significance of the patient's condition leading to mortality and a long length of stay.
+57581,4,4,4,3,5,4.0,The reasoning accurately identifies hemodynamic instability but lacks depth in discussing the implications of hepatocellular carcinoma.
+60477,4,4,4,1,5,3.6,The AI correctly identified key clinical issues but failed in predicting mortality and length of stay.
+20005,3,3,3,1,5,3.0,"The reasoning missed the patient's eventual mortality and long length of stay, and did not fully address the implications of the elevated glucose and respiratory rate."
+29636,3,3,3,1,4,3.0,"The reasoning missed the patient's mortality and short length of stay, and did not fully address the implications of the lab results."
+5387,3,3,3,1,4,3.0,The reasoning identifies key issues but fails to predict mortality and lacks depth in assessing the gastrointestinal bleed's severity.
+12551,3,3,3,1,5,3.0,"The reasoning missed the patient's mortality and short length of stay, and did not fully address the potential severity of the clinical picture."
+7062,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, but it misses the mortality prediction."
+58422,3,3,3,1,4,3.0,The reasoning missed the critical nature of the elevated WBC and failed to predict mortality and length of stay correctly.
+81849,4,4,4,3,5,4.0,The reasoning accurately identifies key clinical issues but lacks a complete analysis of the patient's condition and outcome.
+92625,3,3,3,1,4,3.0,The reasoning identifies key issues but fails to predict mortality and lacks depth in analysis.
+56184,3,3,3,1,4,3.0,The reasoning identifies key issues but fails to predict mortality and length of stay correctly.
+3563,4,3,4,3,5,4.0,The reasoning correctly identifies key issues but lacks full coherence and misses one prediction.
+18611,3,4,3,1,5,3.0,The reasoning missed the significance of the high WBC count and failed to predict mortality and length of stay correctly.
+85407,4,4,4,1,5,3.0,The reasoning accurately identifies key clinical issues but fails to predict mortality and length of stay.
+4811,3,3,3,1,4,3.0,The reasoning missed the severity of the patient's condition and incorrectly predicted outcomes.
+81283,3,3,3,1,5,3.0,"The reasoning missed the patient's mortality and short LOS, and did not fully address the implications of the lab results."
+64119,4,3,4,3,5,4.0,The reasoning is mostly accurate but lacks full coherence and misses one prediction.
+2014,3,3,3,1,4,3.0,The reasoning identifies key issues but fails to predict mortality and LOS correctly.
+20143,3,3,3,1,5,3.0,The reasoning identifies key issues but fails to predict mortality and lacks depth in analysis.
+24582,4,4,4,1,5,3.0,The reasoning is mostly accurate and coherent but fails to predict mortality and length of stay correctly.
+26630,4,4,4,3,5,4.0,The reasoning accurately identifies hemodynamic instability and potential complications but lacks a complete assessment of the patient's condition.
+70609,3,4,3,1,5,3.0,"The reasoning missed the patient's mortality and long length of stay, despite identifying some clinical issues."
+84360,3,3,3,1,4,3.0,The reasoning partially identified key issues but missed the patient's mortality and incomplete reasoning.
+32711,3,3,3,1,5,3.0,"The reasoning missed the critical nature of the patient's condition, leading to incorrect predictions."
+24723,4,4,4,1,5,3.6,"The reasoning is mostly accurate and coherent, but it fails to predict the patient's mortality and length of stay correctly."
+21447,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but could better address the low diastolic pressure."
+50006,4,5,4,5,5,4.6,"The AI reasoning is accurate and coherent, correctly predicting the patient's outcome with no fabrications."
+49443,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, correctly predicting survival and short LOS without fabrications."
+16797,4,4,4,5,5,4.0,"The AI reasoning is mostly accurate and coherent, correctly identifying key issues and predictions."
+88982,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it misses the prediction of a short length of stay."
+80007,4,4,4,5,5,4.0,"The reasoning is accurate and coherent, with correct predictions and no hallucinations, but could better emphasize the potential risks of an upper GI bleed."
+11732,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it lacks a complete analysis of the medications and their relevance to the condition."
+7836,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in discussing coronary artery disease."
+30085,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications, but lacks detailed analysis of the patient's medications."
+86313,4,4,4,5,5,4.0,"The reasoning accurately identifies key issues and predictions, but could better address the low diastolic pressure."
 9438,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
-26879,4,3,4,3,5,4.0,The reasoning correctly identifies renal failure but lacks depth in medication analysis and prediction.
-61121,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it does not fully address the primary diagnosis of subarachnoid hemorrhage."
-89223,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, but it missed the long length of stay prediction."
-29992,4,3,4,3,5,4.0,"The reasoning is mostly accurate and free of fabrications, but lacks completion and depth in logical coherence."
-2040,4,4,4,3,5,4.0,The reasoning correctly identifies renal dysfunction but lacks depth in addressing seizure management and prediction accuracy.
-3319,3,3,3,3,4,3.0,The reasoning is generally accurate but lacks depth in addressing the head bleed and its implications.
-3280,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
-45207,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in assessing the patient's condition."
-28820,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks medication consideration."
-30234,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in medication analysis."
-95351,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
-64773,3,3,3,3,4,3.0,The reasoning is incomplete and lacks depth in analyzing the patient's condition and medications.
-32740,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct evidence usage, but only one prediction is correct."
-1313,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications, but lacks depth in addressing potential post-operative complications."
-26672,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it does not fully address the potential complications of choledocholithiasis."
-11603,3,3,3,3,4,3.0,The reasoning identifies key issues but lacks depth and omits medication analysis.
-76987,4,3,4,3,5,4.0,"The reasoning is mostly accurate and uses evidence well, but lacks complete logical coherence and only predicts one outcome correctly."
-22615,3,3,3,3,4,3.0,The reasoning is incomplete and misses key aspects like the significance of dehydration and altered mental status.
-71924,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but lacks depth in exploring potential causes of hemoptysis."
-10103,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
-70521,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it does not fully address the patient's long length of stay."
-29464,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it only correctly predicted one outcome."
-24897,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications, but lacks depth in assessing the patient's condition."
-4520,3,3,3,3,4,3.0,The reasoning identifies key issues but lacks depth and omits the primary diagnosis discussion.
-7663,4,3,4,3,5,4.0,The reasoning accurately identifies renal dysfunction and mild hyponatremia but lacks a complete assessment of the patient's condition and prediction of outcomes.
-78708,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, with correct evidence usage, but only one prediction is correct."
-15002,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
-31780,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in assessing the clinical implications of the findings."
-32081,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
-7855,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it misses the prediction of long length of stay."
-62642,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
-12888,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no fabrications."
-90549,3,4,3,3,5,3.6,The reasoning is generally accurate but lacks depth in addressing the implications of SAH and the patient's age.
-19731,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, but it fails to predict the long length of stay."
-57664,4,3,4,3,5,4.0,"The reasoning is mostly accurate but incomplete, missing a conclusion on the primary diagnosis."
-12550,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it fails to predict both outcomes correctly."
-32329,4,4,4,5,5,4.0,"The reasoning is accurate and coherent, with correct predictions and no hallucinations, but lacks depth in assessing the severity of the neck infection."
-41508,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in assessing potential complications of the GI bleed."
-29006,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but could better address the significance of the medications."
+26879,4,4,4,3,5,4.0,The reasoning accurately identifies key issues but lacks complete medication analysis and prediction correctness.
+61121,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications, but lacks depth in addressing the low diastolic blood pressure."
+89223,3,4,3,3,4,3.0,The reasoning identifies key issues but lacks depth in assessing the implications of the findings.
+29992,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but lacks a complete medication review."
+2040,4,4,4,5,5,4.4,"The AI accurately identified key clinical issues and made correct predictions, with coherent reasoning and no fabrications."
+3319,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
+3280,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, correctly predicting survival and short LOS, with no hallucinations."
+45207,4,4,4,5,5,4.0,"The AI reasoning is mostly accurate and coherent, correctly identifying key issues and making correct predictions without fabrications."
+28820,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but could better address the low diastolic pressure."
+30234,4,4,4,5,4,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and minimal hallucination risk."
+95351,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations, but lacks depth in addressing the implications of the elevated glucose and WBC count."
+64773,3,3,3,3,4,3.0,The reasoning identifies some key issues but lacks depth and misses the patient's short length of stay.
+32740,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no fabrications."
+1313,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no fabrications."
+26672,4,4,4,5,5,4.4,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no hallucinations."
+11603,4,4,4,5,5,4.0,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no hallucinations."
+76987,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it misses the long length of stay prediction."
+22615,3,3,3,3,4,3.0,The reasoning identifies key issues but lacks depth in analysis and prediction correctness.
+71924,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
+10103,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
+70521,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it only correctly predicted one of the outcomes."
+29464,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it lacks depth in addressing the implications of hyperglycemia and renal impairment."
+24897,4,4,4,5,5,4.4,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
+4520,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it could better address the implications of the elevated WBC and glucose levels."
+7663,4,3,4,3,5,4.0,The reasoning accurately identifies key clinical issues but lacks full logical coherence and misses the prediction of long LOS.
+78708,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it cuts off abruptly and misses one prediction."
+15002,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, correctly identifying key issues and predictions, but lacks depth in exploring the chest pain diagnosis."
+31780,3,3,3,3,4,3.0,The reasoning identifies key issues but lacks depth in analysis and omits the full medication list.
+32081,4,4,4,5,5,4.0,"The AI reasoning is mostly accurate and coherent, correctly predicting survival and short LOS, with no hallucinations."
+7855,3,3,3,3,5,3.4,The reasoning identifies key issues but lacks depth in analysis and prediction.
+62642,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
+12888,4,4,4,5,5,4.0,"The AI reasoning is mostly accurate and coherent, correctly predicting the patient's outcome with no fabrications."
+90549,4,4,4,3,5,4.0,"The AI reasoning is mostly accurate and coherent, with correct evidence usage, but only one prediction is correct."
+19731,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it misses the long length of stay prediction."
+57664,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
+12550,4,4,4,3,5,4.0,"The reasoning is mostly accurate and coherent, but it fails to predict the long length of stay."
+32329,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no fabrications."
+41508,4,4,4,5,5,4.0,"The reasoning is mostly accurate and coherent, with correct predictions and no hallucinations."
+29006,3,4,3,3,4,3.4,The reasoning is generally coherent but lacks depth in analyzing the medications and their implications.
