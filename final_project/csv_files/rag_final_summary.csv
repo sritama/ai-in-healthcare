@@ -1,5 +1,5 @@
 Condition,Accuracy,Mean Similarity,Halluc Rate,ROUGE-L,Grounding (J)
-No-RAG Zero-shot,0.545,0.747,0.0,0.1692,2.86
-No-RAG CoT,0.544,0.748,0.0,0.155,2.72
-RAG Zero-shot,0.58,0.804,0.0,0.2842,3.72
-RAG CoT,0.616,0.77,0.0,0.2434,3.44
+No-RAG Zero-shot,0.6,0.765,0.38,0.1747,3.04
+No-RAG CoT,0.56,0.76,0.34,0.1537,2.82
+RAG Zero-shot,0.64,0.814,0.08,0.2827,3.82
+RAG CoT,0.62,0.777,0.26,0.2398,3.5
