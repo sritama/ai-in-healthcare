@@ -1,0 +1,7 @@
+condition,grounding,reasoning,safety,overall
+No-RAG CoT,3.04,2.62,3.68,3.113
+No-RAG Zero-shot,3.12,3.74,3.84,3.567
+OpenAI RAG CoT,3.44,2.58,3.74,3.253
+OpenAI RAG Zero-shot,4.0,3.8,4.52,4.107
+PubMedBERT RAG CoT,3.38,2.54,3.62,3.18
+PubMedBERT RAG Zero-shot,4.08,3.88,4.64,4.2
