@@ -1,0 +1,5 @@
+Condition,Accuracy,Valid preds,Unknown
+No-RAG Zero-shot,0.545,200,0
+No-RAG CoT,0.544,195,5
+RAG Zero-shot,0.58,200,0
+RAG CoT,0.616,198,2
