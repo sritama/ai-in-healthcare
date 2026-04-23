@@ -1,301 +1,301 @@
 condition,col_key,true_label,grounding,reasoning,safety,note
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer is generally consistent with the source but lacks specific details from the study; reasoning is logical but could be more precise.
-No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and does not fully address the influence of otolith organs.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The answer is mostly consistent with the source and provides logical reasoning, but lacks detailed explanation of how otolith input specifically affects the reflex."
-OpenAI RAG CoT,openai_rag_cot,yes,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but lacks explicit mention of agreement or contradiction among sources."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is mostly consistent with the source, but lacks detail on how asymmetry directly indicates otolith influence."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,4,4,"The AI answer is generally consistent with the source, but lacks detailed explanation of the experiment's implications."
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The answer is partially grounded in the source, but lacks specific evidence for variability and discrepancies."
-No-RAG CoT,nrag_cot,no,2,2,3,"The AI answer does not directly address the agreement between ADs and MRs, and lacks clarity and relevance to the source evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,The AI answer partially aligns with the source but lacks complete information and clarity on the extent of agreement or disagreement.
-OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer lacks complete information from the source and does not clearly explain the agreement level between ADs and MRs.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source, but it assumes a specific percentage of disagreement without explicit evidence."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,2,2,3,"The AI answer is incomplete and lacks clarity, making it difficult to assess its consistency with the source evidence and logical reasoning."
-No-RAG Zero-shot,nrag_zs,no,3,4,3,"The AI answer partially aligns with the source but lacks clarity on the specific context where chemoradiation is safe, and it could mislead by implying broader safety without sufficient evidence."
-No-RAG CoT,nrag_cot,no,3,2,3,The AI answer partially aligns with the source but lacks a complete conclusion and clear reasoning about the safety of chemoradiation as an alternative to surgery.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,3,"The answer is mostly consistent with the source but lacks specific safety and long-term outcome data, and it could mislead by implying sufficiency of chemoradiation without surgery."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,3,The AI answer partially aligns with the source but lacks clarity and caution in its reasoning and safety.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The answer is mostly consistent with the source but lacks specific safety outcomes and survival rate comparisons.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,3,2,The AI answer partially aligns with the source but lacks comprehensive evidence and makes assumptions about safety without sufficient support.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,"The AI answer is generally consistent with the source but lacks specific details from the study; reasoning is logical but could be more precise, and the answer is mostly safe but slightly overconfident without full context."
+No-RAG CoT,nrag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete explanation of the influence of otolith organs on the reflex.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The answer is mostly consistent with the source, but lacks detailed explanation of how otolith input affects the reflex."
+OpenAI RAG CoT,openai_rag_cot,yes,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but lacks explicit mention of source agreement or contradiction."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but lacks complete details from the study."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks complete reasoning and clarity on the influence of otolith organs.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The answer acknowledges variability but lacks specific evidence from the source about agreement levels.
+No-RAG CoT,nrag_cot,no,2,2,4,"The AI answer does not directly address the agreement between ADs and MRs, and the reasoning is incomplete and not fully relevant to the question."
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,4,5,"The AI answer lacks specific evidence from the source to support the claim about the 268 cases, affecting grounding."
+OpenAI RAG CoT,openai_rag_cot,no,2,2,3,"The AI answer is incomplete and does not clearly address the agreement between ADs and MRs, lacking sufficient grounding and reasoning."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,4,5,The AI answer is mostly consistent with the source but introduces specific statistics not present in the provided evidence.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks complete information from the source and does not clearly explain the agreement level between ADs and MRs.
+No-RAG Zero-shot,nrag_zs,no,3,4,3,The AI answer partially aligns with the source but lacks clarity on the specific safety context and overstates the general safety of chemoradiation without surgery.
+No-RAG CoT,nrag_cot,no,3,3,3,The AI answer partially aligns with the source but lacks a complete conclusion and clarity on safety.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks clarity on safety and long-term outcomes.
+OpenAI RAG CoT,openai_rag_cot,no,3,3,2,The AI answer partially aligns with the source but lacks clarity and overstates CRT as an alternative to surgery without sufficient evidence.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,3,The AI answer is mostly consistent with the source but lacks clarity on the safety aspect and omits the conclusion of the study.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,3,The AI answer is partially grounded in the source but lacks comprehensive reasoning and may imply safety without sufficient evidence.
 No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer correctly notes the SCL-90-R's purpose but lacks direct evidence from the source about cognitive impairments.
-No-RAG CoT,nrag_cot,yes,2,2,3,"The AI answer does not clearly connect the SCL-90-R obsessive-compulsive dimension to cognitive impairments, and lacks sufficient evidence from the source."
+No-RAG CoT,nrag_cot,yes,2,2,3,"The AI answer does not clearly connect the SCL-90-R obsessive-compulsive dimension to cognitive impairments, and lacks sufficient grounding in the provided evidence."
 OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence in the source but could be clearer about the implications.
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,4,The AI answer lacks specific conclusions from the source and does not clearly address whether the SCL 90-R identifies cognitive impairments.
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,4,The AI answer acknowledges the lack of specific results in the source but fails to provide a clear conclusion or reasoning about the identification of cognitive impairments.
 PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence in the source but could be clearer about the implications.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,4,The AI answer acknowledges the lack of specific results in the source but does not clearly address the question or provide a logical reasoning chain.
-No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer speculates on potential outcomes without clear support from the source evidence, which does not confirm a change in treatment outcome with dose escalation."
-No-RAG CoT,nrag_cot,no,3,2,3,The AI answer starts with a relevant concept but does not directly address the source evidence or provide a complete reasoning chain.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,The AI answer is mostly consistent with the source but could be clearer about the lack of direct evidence on dose comparison.
-OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer lacks direct evidence from the source to support the conclusion and does not clearly explain the reasoning behind the 'no' answer.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The answer is mostly consistent with the source but lacks clarity in reasoning about dose comparison.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,"The AI answer lacks sufficient detail and clarity in reasoning, and it does not fully address the question based on the provided evidence."
-No-RAG Zero-shot,nrag_zs,no,4,5,5,The answer is consistent with the source evidence but lacks specific data from the study.
-No-RAG CoT,nrag_cot,no,3,2,4,The AI answer is incomplete and does not fully utilize the source evidence to differentiate between the procedures.
-OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence, provides clear reasoning, and avoids misleading claims."
-OpenAI RAG CoT,openai_rag_cot,no,4,4,5,"The answer is mostly consistent with the source and logically explains the difference, but lacks a complete conclusion."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is mostly consistent with the source, but the significance of differences is not fully clear; reasoning is logical, and the answer is safe."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could be more explicit in stating that the procedures are not the same."
-No-RAG Zero-shot,nrag_zs,no,2,4,3,"The AI answer is not well-grounded in the source evidence, which suggests no influence, but the reasoning is logical and the safety is moderate due to lack of overconfidence."
-No-RAG CoT,nrag_cot,no,3,2,4,The AI answer partially aligns with the source but lacks clarity and completeness in reasoning.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but the source evidence is not fully detailed in the excerpt provided."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer is partially grounded in the source but lacks a clear reasoning chain and does not fully address the question.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but the source evidence is not fully detailed in the AI's response."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks sufficient grounding and reasoning as it does not clearly connect the source evidence to the conclusion that general practice characteristics do not influence IT uptake.
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer aligns with general knowledge but lacks direct grounding in the provided source evidence.
-No-RAG CoT,nrag_cot,yes,3,3,3,The AI answer partially aligns with the source evidence but lacks a complete reasoning chain and makes assumptions without full evidence support.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,4,5,The AI correctly notes the lack of specific results in the source but could better align with the source's implication that breast-feeding is beneficial.
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer lacks specific evidence from the source to support the conclusion and does not clearly articulate the reasoning behind the protective effects of breast-feeding.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is cautious and logical, but could better clarify the lack of specific results in the source."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks specific evidence from the source to support the conclusion and does not clearly articulate the reasoning behind the protective effects of breast-feeding for children with a family history of atopy.
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The AI answer is partially grounded in the source but lacks direct evidence from the study; reasoning is logical but could be more specific, and it avoids overconfident claims."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer provides relevant biological context but does not directly address the source evidence or the correct answer.
-OpenAI RAG Zero-shot,openai_rag_zs,no,3,4,3,"The AI answer misinterprets the source evidence, which does not clearly state that parity increases insulin resistance, leading to a potentially misleading conclusion."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks clarity and completeness in reasoning, and it does not fully address the correct answer."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,4,3,"The AI answer misinterprets the source evidence, which does not clearly support the claim that parity increases insulin resistance."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks clarity and completeness in reasoning, and it could mislead without more context."
-No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks specific details from the evidence."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,4,"The AI answer lacks explicit evidence from the source to confirm the SCL 90-R's ability to identify cognitive impairments, and the reasoning is incomplete."
+No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer speculates on potential outcomes without clear evidence from the source, leading to weak grounding and safety concerns."
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer is incomplete and does not directly address the question about the impact of apical dose escalation on treatment outcomes.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,The answer is mostly consistent with the source but could be clearer about the lack of direct comparison in the evidence.
+OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer lacks specific evidence from the source to support the conclusion and does not clearly explain the reasoning behind the 'no' answer.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,The answer is mostly consistent with the source but lacks clarity on the absence of direct dose comparison.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,"The AI answer lacks sufficient grounding in the source evidence and does not provide a clear reasoning chain, but it avoids making overconfident clinical claims."
+No-RAG Zero-shot,nrag_zs,no,4,5,5,"The answer is mostly consistent with the source evidence, but lacks specific data comparison; reasoning and safety are clear and appropriate."
+No-RAG CoT,nrag_cot,no,4,4,5,"The AI answer correctly identifies the procedures as different but does not explicitly state they are not the same, which could be clearer."
+OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical explanation without making overconfident claims."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source evidence but lacks a complete reasoning chain and could be clearer in distinguishing the procedures.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could more explicitly state that the procedures are distinct beyond just the tissue differences."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,"The answer is mostly consistent with the source, but the reasoning is incomplete and lacks a conclusion."
+No-RAG Zero-shot,nrag_zs,no,2,4,3,"The AI answer is not well-grounded in the source evidence, which suggests no association, but the reasoning about potential influencing factors is logical."
+No-RAG CoT,nrag_cot,no,3,2,4,The AI answer partially aligns with the source but lacks a clear conclusion and reasoning chain.
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,"The AI answer speculates on the influence of practice characteristics without complete evidence, leading to potential overinterpretation."
+OpenAI RAG CoT,openai_rag_cot,no,3,2,4,"The AI answer lacks a clear conclusion and reasoning based on the provided source evidence, which only partially addresses the question."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source, but the source does not explicitly confirm the influence of practice characteristics, only suggests an association."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks a clear conclusion and reasoning based on the provided source evidence.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer aligns with general knowledge but lacks specific grounding in the provided source evidence.
+No-RAG CoT,nrag_cot,yes,3,4,4,"The AI answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but incomplete, and safety is adequate as it avoids overconfident claims."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,The AI answer correctly notes the lack of specific results in the source but could better acknowledge the general protective benefits of breastfeeding mentioned.
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer lacks specific evidence from the source to support the conclusion and does not provide a clear reasoning chain.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer correctly notes the lack of specific results in the source, but could acknowledge the general protective benefits of breastfeeding."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks specific evidence from the source and does not clearly conclude the protective effect of breast-feeding for children with a family history of atopy.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer is partially grounded in the source but lacks direct evidence from the study; reasoning is logical but could be more explicitly tied to the source.
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a clear conclusion and overstates the potential influence of parity without direct evidence.
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,4,3,"The AI answer misinterprets the source evidence, which does not clearly support the claim that parity increases insulin resistance."
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks clarity and completeness in reasoning, and it could mislead by suggesting a definitive conclusion without sufficient evidence."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,3,3,"The AI answer misinterprets the source evidence, which does not clearly support the claim that parity increases insulin resistance during pregnancy."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,3,3,The AI answer partially aligns with the source evidence but lacks clarity and completeness in reasoning and safety.
+No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks direct evidence for endothelial patterns specifically indicating grade."
 No-RAG CoT,nrag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete explanation of endothelial patterns' role in grading.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,2,4,"The AI answer is partially grounded in the source but lacks clarity and completeness in reasoning, and it avoids making overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer partially aligns with the source but lacks clarity and completeness in reasoning and does not fully address the question.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks clarity and completeness in reasoning.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer is partially grounded in the source but lacks a complete reasoning chain and could be more cautious in its claims.
-No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer is not fully consistent with the source evidence, which states 'no' change in dimensions, and lacks clarity in reasoning about the specific impact on the middle turbinate."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer is incomplete and does not fully address the source evidence or provide a clear conclusion.
-OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,The AI answer accurately reflects the source evidence and provides a clear and logical reasoning without making overconfident claims.
-OpenAI RAG CoT,openai_rag_cot,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could be more explicit in linking the evidence to the conclusion."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it is slightly incomplete as it cuts off abruptly."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source evidence but lacks clarity in reasoning and could be more cautious in its conclusion.
-No-RAG Zero-shot,nrag_zs,yes,4,4,5,The AI answer aligns with the source evidence but could be more explicit about the lack of specific markers.
-No-RAG CoT,nrag_cot,yes,3,3,4,"The AI answer provides a basic understanding of NASH and ASH but does not directly address the utility of routine laboratory markers in differentiating them, and it lacks specific evidence from the source."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The AI answer is mostly consistent with the source but lacks detail on the study's findings, and it avoids making overconfident claims."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and does not fully address the question.
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer lacks a complete reasoning chain and does not fully align with the source evidence provided.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and could be more explicit about the link between endothelial patterns and grading.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source evidence but lacks detailed reasoning and context for the conclusion.
+No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer is not fully consistent with the source evidence, which states 'no' change, and the reasoning is incomplete."
+No-RAG CoT,nrag_cot,no,3,2,3,"The AI answer does not clearly state whether septoplasty changes the dimensions of compensatory hypertrophy, and the reasoning is incomplete."
+OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical reasoning without making overconfident claims."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source evidence but lacks clarity in reasoning and could be more cautious in its conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,5,5,5,The AI answer accurately reflects the source evidence and provides a clear and safe conclusion.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could be clearer in explicitly stating the conclusion."
+No-RAG Zero-shot,nrag_zs,yes,4,4,5,The AI answer aligns with the source evidence but could more explicitly state the lack of specific markers.
+No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer lacks direct reference to the source evidence and does not clearly address the usefulness of routine laboratory markers in differentiating NASH from ASH.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,5,4,5,"The AI answer accurately reflects the source evidence, but could be clearer in explaining why routine markers are not useful."
 OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,"The AI answer lacks clarity and completeness, as it does not clearly state whether routine laboratory markers are useful, and it partially relies on incomplete source information."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The AI answer is mostly consistent with the source but lacks clarity on the study's conclusion about routine markers.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer lacks clarity and completeness, as it does not clearly state whether routine laboratory markers are useful, and it partially relies on irrelevant sources."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,4,5,"The AI answer accurately reflects the source evidence, but it could be clearer about why routine markers are not useful."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer lacks sufficient grounding in the source evidence and does not provide a clear reasoning chain, while also making an overconfident claim without strong evidence."
 No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer partially aligns with the source but lacks specific evidence from the study to fully support its claims.
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks specific evidence from the study and does not fully address the question.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer correctly notes the lack of direct evidence from the source but could better clarify the reasoning behind the conclusion.
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer lacks a clear conclusion and reasoning based on the provided evidence, and it is incomplete."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is cautious and aligns with the source, but lacks specific data to fully support its conclusion."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer lacks a clear conclusion and reasoning based on the source evidence, and it does not explicitly address whether SLL should be continued."
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer provides a general explanation of second-look laparotomy but does not directly address the specific evidence or conclusion from the source.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,5,The answer is mostly consistent with the source but lacks detailed reasoning on why the evidence is insufficient.
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer lacks a complete reasoning chain and does not clearly connect the source evidence to the conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,3,4,"The AI answer is partially grounded in the source but lacks specific conclusions, and it avoids making overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,The AI answer lacks sufficient detail from the source evidence and does not clearly explain why the correct answer is 'no'.
 No-RAG Zero-shot,nrag_zs,no,3,4,3,The AI answer partially aligns with the source but lacks direct evidence linking CPM to adverse outcomes in IVF pregnancies.
 No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a clear conclusion and overstates the impact of CPM without definitive evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks a definitive conclusion and could be clearer in reasoning.
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer partially reflects the source but lacks a complete reasoning chain and makes an unsupported conclusion.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is consistent with the source and avoids overconfident claims, but lacks specific data linking CPM to outcomes."
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and could be more cautious in its implications.
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer is incomplete and does not provide a clear conclusion or reasoning based on the source evidence.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,3,The AI answer is partially grounded in the source but lacks a clear conclusion and overstates the link between CPM and adverse outcomes.
 PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,The AI answer is incomplete and does not provide a clear conclusion or reasoning based on the source evidence.
-No-RAG Zero-shot,nrag_zs,no,3,4,3,The AI answer aligns partially with the source but lacks direct evidence from the source to support the claim of premature aging.
-No-RAG CoT,nrag_cot,no,3,2,3,The AI answer is incomplete and does not fully address the question or provide a clear conclusion based on the evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,4,"The AI answer aligns with the source evidence and reasoning but lacks explicit biological data, maintaining a cautious tone."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks comprehensive reasoning and clarity, and it implies premature aging without definitive evidence."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,4,3,"The AI answer misinterprets the source evidence, suggesting premature aging based on policy rather than direct evidence, leading to potential overconfidence."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer partially reflects the source but lacks clarity and completeness in reasoning, and it implies premature aging without sufficient evidence."
-No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer is not well-grounded in the source evidence, lacks specific reasoning related to the study, and makes general claims without sufficient caution."
-No-RAG CoT,nrag_cot,no,2,3,3,The AI answer lacks direct evidence from the source and does not clearly address the question about desflurane's effect on LV function during aortic surgery.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The answer is mostly consistent with the evidence and avoids overconfident claims, but it could more clearly state that the evidence does not specify aortic surgery."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer lacks specific evidence from the sources and does not provide a clear reasoning chain or conclusion about desflurane's effects on LV function.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source, but could be clearer about the lack of specific evidence for aortic surgery."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer correctly notes the lack of specific evidence but could be clearer in its reasoning.
-No-RAG Zero-shot,nrag_zs,yes,4,4,5,"The answer is mostly consistent with the source, provides logical reasoning, and avoids overconfident claims."
-No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer is incomplete and does not directly address the applicability of current prediction equations for Chinese adults.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically explains the need for a new equation, and avoids overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly grounded in the source but lacks complete information and reasoning to fully support the conclusion.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,The AI answer accurately reflects the source evidence and provides a logical reasoning chain without making overconfident claims.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a clear conclusion on applicability.
-No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer is not well-grounded in the source evidence, which suggests no effect of age on testicular survival, and it makes clinical claims without sufficient evidence from the source."
+No-RAG Zero-shot,nrag_zs,no,3,4,3,The AI answer partially aligns with the source evidence but lacks direct support for the claim of premature aging and could mislead without clear evidence.
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer lacks a complete analysis of the evidence and does not clearly address the question of premature aging in Indigenous Australians.
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,4,3,"The AI answer misinterprets the source evidence, which does not definitively conclude premature aging but rather reflects policy implications."
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks comprehensive reasoning and clarity, and it could mislead by implying premature aging without sufficient evidence."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,4,The AI answer aligns with the source evidence but could be clearer about the distinction between policy implications and actual biological aging.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer lacks complete evidence from the sources and provides an incomplete reasoning chain, leading to potential misinterpretation."
+No-RAG Zero-shot,nrag_zs,no,2,3,3,The AI answer lacks specific evidence from the source and makes general claims without clear support.
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer lacks direct evidence from the source and does not clearly conclude whether desflurane alters LV function.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The answer is mostly consistent with the source, but lacks specific details on the study's findings, and it safely avoids making unsupported clinical claims."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI correctly identifies the lack of evidence but could be clearer in explaining the implications of this for the clinical question.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,The AI answer correctly notes the lack of specific evidence for aortic surgery but could be clearer about the relevance of the study to the question.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer acknowledges limited information but lacks a clear reasoning chain and does not fully address the question.
+No-RAG Zero-shot,nrag_zs,yes,4,4,5,"The answer is mostly consistent with the source, logically reasoned, and avoids overconfident claims, but lacks specific reference to the study's aim to develop a new equation for Chinese adults."
+No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer is incomplete and does not directly address the applicability of current prediction equations for Chinese adults.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,4,The answer is mostly consistent with the source but lacks a definitive conclusion on the applicability of current equations.
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks clarity in reasoning and does not fully address the question.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The answer is mostly consistent with the source but slightly overstates the necessity of a new equation without explicit evidence.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete reasoning chain and clarity on the applicability of current equations.
+No-RAG Zero-shot,nrag_zs,no,2,3,2,"The AI answer is not consistent with the source evidence, which suggests no effect of age on testicular survival, and it makes overconfident claims about outcomes without sufficient evidence."
 No-RAG CoT,nrag_cot,no,3,2,3,The AI answer does not directly address the study's findings on testicular survival without atrophy and lacks a clear conclusion.
-OpenAI RAG Zero-shot,openai_rag_zs,no,3,2,4,"The AI answer is partially grounded in the source but lacks clarity on whether age affects testicular survival, and it avoids making definitive clinical claims."
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,The AI answer is partially grounded in the source but lacks clarity on the impact of age on testicular survival and does not make misleading claims.
 OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer lacks clarity and completeness in reasoning and does not fully align with the source evidence.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,3,4,"The AI answer is partially grounded in the source but lacks clarity on whether age affects testicular survival, and it avoids making definitive claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks clarity on the conclusion about age affecting testicular survival and does not fully align with the source evidence.
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The answer is generally consistent with the source but lacks specific details from the evidence to fully support the claims.
-No-RAG CoT,nrag_cot,yes,3,2,4,"The AI answer is incomplete and does not fully address the question, lacking a clear connection to the source evidence and reasoning."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,The AI answer correctly notes the lack of direct evidence but fails to fully address the study's focus on prognostic factors.
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,4,The AI answer partially aligns with the source but lacks a clear reasoning chain and does not fully address the question.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion on the impact of technical factors on prognosis.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,4,The AI answer is partially grounded in the source but lacks a complete reasoning chain and does not fully address the question.
-No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks explicit statistical evidence and caution in clinical claims."
-No-RAG CoT,nrag_cot,yes,4,4,4,"The answer is mostly consistent with the source, but it is incomplete and lacks a definitive conclusion."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,"The AI answer is consistent with the source but lacks specific results and conclusions, leading to incomplete reasoning."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a clear conclusion and reasoning chain.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is mostly consistent with the source and cautious, but it could more clearly connect ADMA levels to endothelial dysfunction."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks sufficient evidence from the sources to conclusively support the claim and does not provide a clear reasoning chain.
-No-RAG Zero-shot,nrag_zs,yes,4,4,4,The answer is generally consistent with the source but lacks specific correlation details; it avoids misleading claims but could be more cautious.
-No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer is partially grounded in the source but lacks complete evidence and reasoning to fully support the role of cytokines in epilepsy.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,2,4,The AI answer lacks clarity on whether age affects testicular atrophy and does not fully align with the source evidence.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks clarity and completeness in reasoning and does not fully align with the source evidence.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer is generally consistent with the source but lacks specific details from the evidence; it provides logical reasoning but could be more cautious in its claims.
+No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer partially aligns with the source but lacks a complete explanation of how technical factors affect prognosis.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,"The AI answer correctly notes the lack of direct evidence but overlooks the study's aim to evaluate prognostic factors, which implies technical factors could be relevant."
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,4,"The AI answer lacks specific conclusions from the source and does not clearly connect the study's findings to the question, but it avoids making unsupported clinical claims."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,"The answer is mostly consistent with the source but lacks specific conclusions, and it cautiously avoids making definitive claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,4,The AI answer is partially grounded in the source but lacks specific conclusions and reasoning about the impact of technical factors on prognosis.
+No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks explicit mention of statistical significance and could be more cautious in its claims."
+No-RAG CoT,nrag_cot,yes,4,4,4,"The answer is mostly consistent with the source, but it cuts off and lacks a definitive conclusion."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion on ADMA levels predicting endothelial dysfunction.
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete reasoning chain and could be more cautious in its implications.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is cautious and aligns with the source, but could more clearly connect ADMA levels to endothelial dysfunction."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks comprehensive evidence from the sources and does not provide a clear reasoning chain to support the conclusion.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The answer is partially grounded in the source but extends beyond it without direct evidence from the provided study.
+No-RAG CoT,nrag_cot,yes,4,4,4,"The AI answer is generally consistent with the source evidence and provides a logical reasoning chain, but it could be more explicit in linking cytokine levels to epilepsy."
 OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The answer is generally consistent with the source but lacks detailed explanation of the findings and their implications.
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly grounded in the source but lacks detailed reasoning and context for the role of cytokines in epilepsy.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,"The answer is mostly consistent with the source but lacks specific results, and the reasoning could be clearer about the implications of measuring cytokines."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks detailed reasoning and could be more cautious in its implications.
-No-RAG Zero-shot,nrag_zs,no,2,3,2,"The AI answer incorrectly suggests untethering is often recommended and supported by guidelines, which contradicts the source evidence stating no guidelines exist and highlights risks of untethering."
-No-RAG CoT,nrag_cot,no,3,2,3,"The AI answer is incomplete and does not fully address the necessity of untethering prior to scoliosis correction, lacking clear reasoning and grounding in the provided evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning chain.
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be clearer about the lack of guidelines.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and could be more cautious about the lack of guidelines.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete conclusion and clear reasoning.
-No-RAG Zero-shot,nrag_zs,no,4,4,4,"The AI answer aligns with the source evidence but lacks explicit mention of the 30% false positive rate, which could enhance clarity and safety."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks complete reasoning and clarity on why SLNB might be considered despite clinically positive axilla.
-OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence, provides a clear reasoning chain, and avoids making overconfident clinical claims."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could better emphasize the uncertainty in clinical practice.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence, provides a logical reasoning chain, and avoids making overconfident clinical claims."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks detailed reasoning and context for the role of cytokines in epilepsy.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,"The answer is generally consistent with the source but lacks specific results, and the reasoning could be clearer about the implications of measuring cytokines."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source but lacks detailed reasoning on how cytokines are implicated in epilepsy.
+No-RAG Zero-shot,nrag_zs,no,3,4,3,"The AI answer suggests untethering based on symptoms, but the source indicates no guidelines exist and highlights risks, making the grounding and safety scores lower."
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and does not fully address the necessity of untethering before scoliosis correction.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning about the necessity of untethering.
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks detailed reasoning and could be clearer about the absence of guidelines.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and could be more cautious about clinical claims.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be clearer about the lack of guidelines.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer partially aligns with the source but lacks specific evidence from the source to support the claim about recent studies and clinical trials.
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer partially aligns with the source but lacks a complete reasoning chain and could mislead without full context.
+OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence, provides clear reasoning, and avoids making overconfident claims."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be clearer in its conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and could be more cautious in its claims.
 PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be clearer in its conclusion.
-No-RAG Zero-shot,nrag_zs,yes,4,3,4,The answer is mostly consistent with the source but lacks a definitive conclusion on spontaneous remission.
+No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks explicit evidence for spontaneous remission and could be more cautious."
 No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer is incomplete and does not fully address the question based on the provided evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,The AI answer accurately reflects the source evidence and avoids making unsupported claims.
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,3,The AI answer is mostly grounded in the source but lacks clarity in reasoning and makes an uncertain claim about spontaneous remission.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically concludes the lack of evidence for spontaneous remission, and avoids making overconfident claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion on spontaneous remission and could be more cautious in its claims.
-No-RAG Zero-shot,nrag_zs,yes,4,4,4,The AI answer is mostly consistent with the source but includes additional unverified claims about social and cultural factors.
-No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and specific evidence from the source.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically concludes the lack of consensus on spontaneous remission, and avoids making unsupported clinical claims."
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer lacks clear evidence for spontaneous remission in PAN and should not assert 'yes' without stronger support.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically explains the lack of confirmation of spontaneous remission, and avoids making overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,3,The AI answer is mostly consistent with the source but lacks clarity and makes an uncertain claim about spontaneous remission.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer is partially grounded in the source but includes additional unverified claims about distrust and alternative information sources.
+No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer partially aligns with the source evidence but lacks a clear reasoning chain and does not fully address the question.
 OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,The AI answer accurately reflects the source evidence and logically explains the identified patterns without making misleading claims.
-OpenAI RAG CoT,openai_rag_cot,yes,4,4,5,"The answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it is incomplete as it cuts off before fully addressing all sources."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically explains the identified clusters, and avoids making misleading claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks completion and clarity in reasoning.
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,"The AI answer is partially grounded in the source but lacks specific evidence details; reasoning is logical, but safety could be improved by emphasizing clinical discretion."
-No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer partially aligns with the source but lacks a complete reasoning chain and makes incomplete clinical claims.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The AI answer is consistent with the source, logically discusses the variability in treatment, and avoids making definitive clinical claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source but lacks comprehensive reasoning and clarity on the conditions for nonoperative treatment.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a definitive conclusion and clear reasoning on nonoperative treatment feasibility.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source but lacks comprehensive reasoning and clarity on the evidence supporting nonoperative treatment.
-No-RAG Zero-shot,nrag_zs,yes,4,3,4,The AI answer is generally consistent with the source but lacks specific details from the study and could be more cautious in its claims.
-No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer does not directly address the study's findings on the predictive nature of PIPE for IPE and lacks a clear reasoning chain.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The answer is generally consistent with the source but lacks specific details on study outcomes and reasoning.
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks detailed reasoning and context for the conclusion.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,3,2,3,"The AI answer lacks specific results from the study and does not clearly confirm the correct answer, leading to unclear reasoning and partial grounding."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer is incomplete and lacks a clear conclusion, making it difficult to fully assess its consistency with the source evidence."
-No-RAG Zero-shot,nrag_zs,no,4,4,5,"The answer aligns with the source evidence but lacks specific details from the study; reasoning is logical, and it avoids overconfident claims."
-No-RAG CoT,nrag_cot,no,3,3,4,"The AI answer partially aligns with the source evidence but does not directly address the adequacy of clinical predictors, and it lacks a complete reasoning chain."
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but lacks specific details from the study to fully support the conclusion."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source evidence but lacks a detailed reasoning chain and could be more explicit in its conclusion.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The AI answer aligns with the source evidence but lacks detail on study results and could be clearer in reasoning.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer partially aligns with the source evidence but lacks detailed reasoning and clarity on the conclusion.
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer aligns with the source evidence in suggesting the importance of TBS but lacks specific evidence details from the source.
-No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer is incomplete and lacks a clear conclusion based on the provided evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,"The answer is mostly consistent with the source but lacks specific outcomes, and the reasoning could be clearer regarding the benefits of TBS."
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,"The AI answer lacks sufficient detail and context from the source evidence to fully support the conclusion, and it does not clearly explain the reasoning behind the 'yes' answer."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is consistent with the source but lacks specific outcome data, and it cautiously avoids making definitive clinical claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer partially reflects the source but lacks comprehensive reasoning and makes an incomplete claim about the effectiveness of TBS.
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The AI answer partially aligns with the source but introduces additional factors not explicitly mentioned, and it cautiously suggests differences without overconfidence."
-No-RAG CoT,nrag_cot,no,3,2,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and specific details from the evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and avoids making unsupported claims, but it could be clearer in explaining the lack of specific findings."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,4,"The AI answer lacks sufficient detail and clarity in reasoning, and it does not fully address the question based on the provided source evidence."
+OpenAI RAG CoT,openai_rag_cot,yes,4,4,5,"The answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it is incomplete as it cuts off abruptly."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically explains the clusters, and avoids misleading claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete reasoning chain and ends abruptly.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer is generally consistent with the source but lacks specific evidence details and could be more cautious about nonoperative treatment criteria.
+No-RAG CoT,nrag_cot,yes,3,3,4,"The AI answer is partially grounded in the source but lacks complete information and clarity in reasoning, though it avoids overconfident claims."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The AI answer is consistent with the source and cautious, but lacks a definitive conclusion."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source but lacks detailed reasoning and clarity on the conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is consistent with the source but lacks specific outcomes, and it avoids making overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,"The answer is generally consistent with the source but lacks specific criteria and outcomes, and the reasoning could be clearer."
+No-RAG Zero-shot,nrag_zs,yes,4,4,4,"The AI answer aligns with the source evidence but lacks specific details from the study, and while it suggests a progression, it should be more cautious in its claims."
+No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer partially aligns with the source but lacks a clear reasoning chain and definitive conclusion.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The AI answer is generally consistent with the source but lacks specific details on study outcomes and reasoning.
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is generally consistent with the source but lacks detailed reasoning and context for the conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,3,2,3,"The AI answer is incomplete and does not provide specific results or conclusions from the study, making it unclear and potentially misleading."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer is incomplete and lacks a clear conclusion, making it difficult to fully assess its consistency with the source evidence and logical reasoning."
+No-RAG Zero-shot,nrag_zs,no,4,4,5,The AI answer aligns with the source evidence but lacks specific details from the study.
+No-RAG CoT,nrag_cot,no,3,2,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and does not directly address the adequacy of clinical predictors.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and presents a logical reasoning chain, but it could be more explicit about the study's findings."
+OpenAI RAG CoT,openai_rag_cot,no,3,2,4,The AI answer lacks explicit conclusions from the source and provides an incomplete reasoning chain.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,"The AI answer aligns with the hypothesis but lacks specific study results, making the reasoning less clear."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,"The AI answer lacks specific results from the study and does not provide a clear reasoning chain, but it avoids making overconfident claims."
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,"The answer is partially grounded in the source evidence but lacks specific details from the study; reasoning is logical, but the safety could be improved by acknowledging the controversy mentioned in the source."
+No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer partially aligns with the source but lacks a clear conclusion and reasoning chain.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,"The answer is mostly consistent with the source but lacks specific outcomes, and the reasoning could be clearer."
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer partially reflects the source but lacks a complete reasoning chain and makes an implicit clinical claim without full evidence.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,"The AI answer is consistent with the source but lacks specific conclusions, and it cautiously avoids making definitive clinical claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer partially reflects the source evidence but lacks comprehensive reasoning and clarity, and it does not fully address the question's implications."
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer partially aligns with the source but lacks specific evidence from the source to support its claims about risk factors.
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a complete response and clear reasoning about risk factors.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is cautious and aligns with the source, but lacks specific details from the evidence."
+OpenAI RAG CoT,openai_rag_cot,no,2,2,3,"The AI answer lacks sufficient detail and clarity, and it does not directly address whether risk factors for first-onset and recurrent MDD are the same or different."
 PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,5,The AI answer correctly notes the lack of specific findings in the source but could be clearer in its reasoning.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,2,2,3,"The AI answer is incomplete and lacks sufficient grounding in the provided source evidence, with unclear reasoning and no definitive conclusion."
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer discusses potential issues affecting reliability but lacks direct evidence from the source to support its claims.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and clarity on the conclusion.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer discusses potential issues affecting reliability but does not directly address the source evidence's conclusion.
 No-RAG CoT,nrag_cot,yes,2,2,3,The AI answer is incomplete and does not fully address the reliability of stroke patients' home BP reports based on the provided evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The AI answer correctly identifies the lack of explicit data on reliability in the source, but could acknowledge the study's intent to assess reliability."
-OpenAI RAG CoT,openai_rag_cot,yes,2,2,3,The AI answer lacks sufficient evidence from the source to support the conclusion and does not provide a clear reasoning chain.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer correctly identifies the lack of specific data on reliability in the source, but could acknowledge the study's intent to assess reliability."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly identifies the lack of direct evidence on reliability but could be clearer about the absence of conclusions in the source.
+OpenAI RAG CoT,openai_rag_cot,yes,2,2,3,The AI answer lacks sufficient evidence from the sources to support the conclusion and does not provide a clear reasoning chain.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer correctly notes the lack of explicit data on reliability, but could better clarify the absence of a definitive conclusion."
 PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,2,2,3,The AI answer lacks specific evidence from the source to support the conclusion and does not provide a clear reasoning chain.
-No-RAG Zero-shot,nrag_zs,yes,2,3,4,"The AI answer lacks grounding in the provided evidence and does not clearly address the question, but it avoids making overconfident claims."
-No-RAG CoT,nrag_cot,yes,2,3,3,The AI answer is incomplete and does not directly address the question based on the provided evidence.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of evidence for otorrhea but could clarify that the source does not address otorrhea at all.
-OpenAI RAG CoT,openai_rag_cot,yes,3,3,4,"The AI correctly notes the lack of direct evidence on otorrhea but fails to address the correct answer, which is 'yes'."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is mostly consistent with the source evidence, but it could acknowledge the lack of complete information in the source."
+No-RAG Zero-shot,nrag_zs,yes,2,3,4,The AI answer lacks direct grounding in the provided evidence and does not clearly address the question about severe otorrhea.
+No-RAG CoT,nrag_cot,yes,2,2,3,The AI answer is incomplete and does not fully address the question based on the provided evidence.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,5,5,The AI answer correctly identifies the lack of evidence for otorrhea in the source but could clarify that the source is incomplete.
+OpenAI RAG CoT,openai_rag_cot,yes,3,3,4,The AI answer correctly notes the lack of direct evidence on otorrhea but could improve clarity and caution in its reasoning.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is mostly consistent with the source, but it could acknowledge the lack of comprehensive data on adverse effects."
 PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI correctly notes the lack of direct evidence on otorrhea but could improve clarity in reasoning.
 No-RAG Zero-shot,nrag_zs,no,1,2,2,"The AI answer contradicts the source evidence, lacks clear reasoning, and makes potentially misleading claims about HPV detection in breast milk."
 No-RAG CoT,nrag_cot,no,5,4,5,"The AI answer is well-grounded in the source evidence, logically reasoned, and avoids misleading claims."
-OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,"The AI answer accurately reflects the source evidence, follows a logical reasoning chain, and avoids making overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks completeness in reasoning and clarity in safety due to an incomplete step 2.
+OpenAI RAG Zero-shot,openai_rag_zs,no,5,5,5,The AI answer accurately reflects the source evidence and avoids making overconfident claims.
+OpenAI RAG CoT,openai_rag_cot,no,5,4,5,"The AI answer is well-grounded in the source, logically reasoned, and avoids misleading claims."
 PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,5,5,5,The AI answer accurately reflects the source evidence and avoids making misleading claims.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,5,4,5,"The answer is well-grounded in the source, but the reasoning step is incomplete."
-No-RAG Zero-shot,nrag_zs,no,3,2,3,The AI answer lacks specific evidence from the source and does not clearly address the adequacy of K/DOQI guidelines.
-No-RAG CoT,nrag_cot,no,3,2,3,"The AI answer is incomplete and does not directly address the adequacy of K/DOQI guidelines, lacking clear reasoning and grounding in the provided evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source, logically reasoned, and avoids overconfident claims, but lacks a definitive conclusion."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning chain.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and avoids overconfident claims, but could be more explicit about the study's inconclusiveness."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete conclusion and reasoning chain.
-No-RAG Zero-shot,nrag_zs,yes,3,3,4,The AI answer partially aligns with the source but lacks specific evidence details and overgeneralizes the predictive value of distal ureteral diameter.
-No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer partially aligns with the source but lacks complete information and clarity on the predictive value of distal ureteral diameter.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,"The AI answer correctly notes the lack of direct evidence but fails to acknowledge the correct answer provided, leading to incomplete reasoning."
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,"The AI answer partially aligns with the source evidence but lacks comprehensive reasoning and clarity, and it does not fully address the predictive value of distal ureteral diameter."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is cautious and consistent with the evidence, but lacks a definitive conclusion due to missing study results."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer lacks sufficient detail and clarity in reasoning, and it does not fully confirm the predictive value of distal ureteral diameter based on the provided evidence."
-No-RAG Zero-shot,nrag_zs,no,3,3,4,The AI answer is partially grounded in the source but lacks specific details from the evidence and does not fully address the question.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,5,4,5,"The AI answer is well-grounded in the source evidence, logically reasoned, and avoids making misleading claims, but it is incomplete as it cuts off abruptly."
+No-RAG Zero-shot,nrag_zs,no,3,3,4,The answer partially aligns with the source but lacks specific evidence and clarity on guideline adequacy.
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer partially aligns with the source but lacks a complete reasoning chain and makes incomplete claims about guideline adequacy.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could be more explicit about the study's inconclusiveness."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear reasoning chain and could be more cautious in its conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,"The AI answer is mostly consistent with the source but lacks specific outcomes and conclusions, and the reasoning could be clearer."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear reasoning chain and definitive conclusion.
+No-RAG Zero-shot,nrag_zs,yes,3,3,4,The AI answer partially aligns with the source but introduces additional claims not directly supported by the evidence.
+No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer partially aligns with the source evidence but lacks a clear conclusion and specific details from the study.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,"The AI answer acknowledges the lack of results in the source but does not clearly state whether distal ureteral diameter can predict reflux resolution, leading to incomplete reasoning and grounding."
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,"The AI answer lacks sufficient detail and clarity in reasoning, and it does not fully address the predictive value of distal ureteral diameter as indicated by the source evidence."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,3,3,4,"The AI answer acknowledges the study but lacks specific results, making it partially grounded and reasoned, while it avoids overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer is partially grounded in the source but lacks complete information and reasoning to support the conclusion.
+No-RAG Zero-shot,nrag_zs,no,3,3,4,The AI answer is partially grounded in the source but lacks specific evidence from the study and does not fully address the question.
 No-RAG CoT,nrag_cot,no,3,3,4,The AI answer provides a general overview of biliary atresia and the Kasai procedure but does not directly address the question of whether all patients should undergo portoenterostomy.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The answer is mostly consistent with the source and avoids overconfident claims, but could more clearly state that the evidence suggests a selective approach rather than implying uncertainty."
-OpenAI RAG CoT,openai_rag_cot,no,3,2,4,"The AI answer partially aligns with the source but lacks clarity and completeness in reasoning, and it avoids making overconfident claims."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is mostly consistent with the source and provides a logical reasoning chain, while avoiding overconfident claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,"The AI answer is generally consistent with the source, but lacks a complete reasoning chain and could be more explicit about the selective approach."
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but could be more detailed, and safety is adequate as it avoids definitive claims."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a definitive conclusion and clear reasoning.
-OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,The AI answer acknowledges the lack of conclusive evidence but could better clarify the connection between the metastasis rate and the necessity of dissection.
-OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer lacks sufficient grounding in the provided evidence and does not clearly justify the conclusion that station 9 dissection is unnecessary.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,3,4,The answer partially aligns with the source but lacks comprehensive evidence and reasoning to support the conclusion.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer lacks sufficient evidence and reasoning to support the conclusion that station 9 lymph node dissection is unnecessary, as it only mentions a metastasis rate without further analysis."
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,"The AI answer is partially grounded in the source but lacks direct evidence from the study about prognosis inheritance, and it provides a reasonable explanation without making overconfident claims."
-No-RAG CoT,nrag_cot,yes,3,2,3,"The AI answer is incomplete and does not fully address the question of whether breast cancer prognosis is inherited, lacking clear linkage to the source evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence on inherited prognosis but could be clearer on the implications.
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer suggests a potential genetic component in prognosis but lacks clarity and completeness in reasoning and grounding.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence on prognosis inheritance but could better align with the source's implication of genetic influence.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer partially aligns with the source but lacks clarity and completeness in reasoning about genetic influence on prognosis.
-No-RAG Zero-shot,nrag_zs,no,2,3,3,"The AI answer incorrectly suggests a correlation, which contradicts the source evidence."
-No-RAG CoT,nrag_cot,no,3,3,4,"The AI answer starts with relevant context but does not directly address the correlation question, and it is incomplete."
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and avoids overconfident claims, but could be clearer in explaining why the correlation is unreliable."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning chain.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,5,4,5,"The AI answer is well-grounded in the source evidence, logically reasoned, and avoids overconfident claims."
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and provides a logical reasoning chain, while avoiding overconfident claims."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,"The AI answer is mostly consistent with the source, but lacks a complete reasoning chain and could be clearer in its conclusion."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,4,The answer is mostly consistent with the source but lacks clarity in reasoning and could better emphasize the variability in surgical outcomes.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is generally consistent with the source but lacks a clear reasoning chain and does not explicitly state the conclusion that not all patients should undergo portoenterostomy.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,"The answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but could be more precise, and safety is adequate as it avoids definitive claims."
+No-RAG CoT,nrag_cot,no,3,3,4,"The AI answer is incomplete and does not fully address the necessity of station 9 lymph node dissection, but it avoids making overconfident claims."
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,The answer acknowledges limited evidence but lacks clarity on how the 3.45% metastasis rate impacts the necessity of dissection.
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer lacks sufficient grounding and reasoning as it does not fully address the necessity of station 9 lymph node dissection, and the conclusion is not well-supported by the provided evidence."
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,3,3,4,The AI answer is partially grounded in the source but lacks comprehensive evidence and reasoning to support its conclusion.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,The AI answer lacks sufficient grounding in the provided evidence and does not clearly justify the conclusion that station 9 lymph node dissection is unnecessary.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer partially aligns with the source but lacks direct evidence from the study to support its claims about genetic influence on prognosis.
+No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer does not fully address the source evidence or provide a complete reasoning chain regarding the inheritance of breast cancer prognosis.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence on inherited prognosis but could better clarify the distinction between etiology and prognosis.
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer suggests a genetic component in prognosis but lacks clear evidence and reasoning from the sources provided.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The AI answer correctly notes the lack of direct evidence on inherited prognosis but could better integrate the study's findings.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer suggests a genetic component in prognosis but lacks clarity and overstates the evidence from the source.
+No-RAG Zero-shot,nrag_zs,no,3,3,4,The AI answer partially aligns with the source but lacks a clear conclusion and could mislead by implying a correlation exists.
+No-RAG CoT,nrag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning about the correlation.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and avoids overconfident claims, but could be clearer in stating the conclusion."
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be clearer in its conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and provides a logical reasoning chain, but could be more explicit in stating that the correlation is not reliable."
 PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source evidence but lacks a clear reasoning chain and could be more explicit in stating the conclusion.
-No-RAG Zero-shot,nrag_zs,yes,4,4,5,"The answer is generally consistent with the source evidence and provides a logical reasoning chain, but it could be more directly tied to the specific evidence provided."
+No-RAG Zero-shot,nrag_zs,yes,4,4,5,"The answer is generally consistent with the source, provides logical reasoning, and avoids overconfident claims."
 No-RAG CoT,nrag_cot,yes,4,4,5,"The AI answer is generally consistent with the source evidence and provides a logical reasoning chain, but it could more directly address the specific context of Dutch primary schools."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The answer is generally consistent with the source evidence and provides a logical reasoning chain, but could be more explicit in linking the study's aim to the conclusion of room for improvement."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,5,The answer is generally consistent with the source but lacks depth in reasoning.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is well-grounded and logical, but could provide more specific details from the source."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,5,4,5,"The AI answer is well-grounded in the source evidence, logically reasoned, and avoids misleading claims."
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,The answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but assumes conditions not mentioned in the source.
-No-RAG CoT,nrag_cot,yes,3,2,4,"The AI answer does not directly address the question of whether student examiners can substitute faculty, and lacks clear reasoning based on the provided evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,The AI answer correctly notes the lack of direct evidence but could better clarify the relevance of the source to the question.
-OpenAI RAG CoT,openai_rag_cot,yes,2,2,3,"The AI answer lacks specific conclusions from the source and does not clearly justify the 'yes' answer, making it poorly grounded and reasoned."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,The AI answer correctly identifies the lack of direct evidence in the source but could be more explicit about the absence of conclusions.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,2,2,3,"The AI answer lacks specific conclusions from the source and does not clearly justify the 'yes' answer, making it poorly grounded and reasoned."
-No-RAG Zero-shot,nrag_zs,yes,3,4,4,"The AI answer is partially grounded in the source evidence but lacks specific details from the study, while the reasoning is logical and the safety is adequate as it avoids overconfident claims."
-No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer partially aligns with the source but lacks complete evidence and reasoning to fully support the conclusion.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,3,3,4,"The AI answer acknowledges the study's aim but lacks specific results, making it partially grounded and reasoned, while it avoids overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning chain.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The AI answer is cautious and consistent with the source, but lacks specific results or conclusions from the study."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,4,The AI answer partially references the source but lacks a clear conclusion and reasoning chain.
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The AI answer is partially grounded in the source but lacks definitive evidence, and it cautiously suggests possible influences without overconfidence."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer provides a general explanation of acupuncture but does not directly address the source evidence or the specific question about the number of needles.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and does not provide a definitive conclusion.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The answer is well-grounded and logical, but could be more explicit about specific areas for improvement."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,5,The AI answer is mostly consistent with the source but lacks a clear reasoning chain connecting the evidence to the conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is generally consistent with the source and logically reasoned, but could be more explicit in linking evidence to the conclusion."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,5,4,5,"The answer is well-grounded in the source, with clear reasoning, and avoids misleading claims."
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but assumes conditions not explicitly mentioned in the source.
+No-RAG CoT,nrag_cot,yes,3,2,4,"The AI answer does not directly address the question of whether student examiners can substitute faculty in OSCEs, and lacks a clear reasoning chain."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,The AI answer correctly identifies the lack of direct evidence in the source but could be clearer about the absence of specific results or conclusions.
+OpenAI RAG CoT,openai_rag_cot,yes,3,2,3,The AI answer lacks specific conclusions from the source and does not provide a clear reasoning chain to support the 'yes' answer.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,5,The AI answer correctly notes the lack of direct evidence but could better clarify the implications of the comparison mentioned.
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks specific conclusions from the source and does not clearly justify the 'yes' answer.
+No-RAG Zero-shot,nrag_zs,yes,3,4,4,The AI answer is partially grounded in the source but lacks specific evidence from the study; reasoning is logical but speculative.
+No-RAG CoT,nrag_cot,yes,3,2,3,"The AI answer is incomplete and does not fully address the relationship between treatment duration and return to treatment, lacking clear reasoning and grounding in the provided evidence."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,3,4,The answer is generally consistent with the source but lacks detailed results and a clear reasoning chain.
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and could be more cautious in its implications.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,3,4,"The AI answer correctly identifies the study's aim but lacks the study's results, affecting reasoning clarity."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks comprehensive reasoning and clarity on the relationship.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer acknowledges the debate on needle number but lacks direct alignment with the source's conclusion of 'no' impact.
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a clear conclusion and overemphasizes theoretical aspects without addressing the study's findings.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The AI answer is consistent with the source, logically reasoned, and avoids making unsupported clinical claims."
 OpenAI RAG CoT,openai_rag_cot,no,3,2,4,"The AI answer lacks sufficient grounding and reasoning due to incomplete source information, but it avoids making overconfident claims."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and avoids making unsupported claims, but it could be clearer about the lack of conclusion due to incomplete data."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks complete information from the sources and does not provide a clear conclusion or reasoning about the number of needles in acupuncture treatment for neck pain.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The AI answer is consistent with the source evidence and avoids making unsupported claims, but it could be clearer about the lack of specific results in the source."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,4,The AI answer lacks complete information from the source and does not provide a clear conclusion or reasoning about the number of needles in acupuncture treatment for neck pain.
 No-RAG Zero-shot,nrag_zs,no,4,4,5,"The answer is mostly consistent with the source, provides a logical reasoning chain, and avoids overconfident claims."
-No-RAG CoT,nrag_cot,no,3,3,4,The AI answer provides relevant biological context but does not directly address the source evidence or the question about folic acid's protective effect against heart defects in Down syndrome.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,4,The AI answer correctly notes the lack of conclusive evidence but could be clearer in its reasoning.
+No-RAG CoT,nrag_cot,no,3,3,4,The AI answer partially aligns with the source but lacks a clear conclusion and overstates the biological mechanism without definitive evidence.
+OpenAI RAG Zero-shot,openai_rag_zs,no,3,3,4,The answer acknowledges incomplete evidence but lacks clarity and could be more cautious in its conclusion.
 OpenAI RAG CoT,openai_rag_cot,no,3,2,3,"The AI answer is incomplete and does not clearly state whether folic acid protects against heart defects in DS, lacking a definitive conclusion."
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is mostly consistent with the source and avoids overconfident claims, but lacks specific conclusions from the study."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer is incomplete and does not clearly conclude whether folic acid protects against heart defects in DS, and it lacks a clear reasoning chain."
-No-RAG Zero-shot,nrag_zs,yes,4,4,4,The answer is mostly consistent with the source but lacks specific details from the study and slightly overgeneralizes the role of T-cells.
-No-RAG CoT,nrag_cot,yes,4,3,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and could be more cautious in its claims.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical reasoning without making misleading claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and includes an irrelevant source.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is cautious and acknowledges the lack of complete evidence, but could be clearer about the limitations of the source."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer is incomplete and does not clearly conclude whether folic acid protects against heart defects in DS, lacking a clear reasoning chain and potentially misleading by not addressing the 'correct answer' provided."
+No-RAG Zero-shot,nrag_zs,yes,4,4,4,The AI answer is mostly consistent with the source but lacks specific details from the study and could be more cautious in its claims.
+No-RAG CoT,nrag_cot,yes,4,3,4,The AI answer partially aligns with the source but lacks a complete reasoning chain and could be more explicit about the study's findings.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,4,"The answer is mostly consistent with the source, but lacks specific details on the comparison between WT and nude mice at different toluene concentrations."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source evidence but lacks clarity in reasoning and includes an irrelevant source.
 PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical reasoning without making misleading claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical reasoning chain without making overconfident claims."
-No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer correctly identifies the primary association of Kell alloimmunization but does not fully address the source evidence suggesting a link to thrombocytopenia.
-No-RAG CoT,nrag_cot,no,3,4,4,The AI answer correctly identifies the primary concern of Kell alloimmunization but does not fully address the source evidence regarding thrombocytopenia.
-OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,3,The AI answer is mostly consistent with the source evidence but could be misleading as it contradicts the correct answer provided.
-OpenAI RAG CoT,openai_rag_cot,no,4,3,3,The AI answer is partially grounded in the source but lacks clarity in reasoning and makes a potentially misleading claim by not addressing the correct answer.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,3,The AI answer aligns with the source evidence but lacks clarity in reasoning and overstates the conclusion without acknowledging the study's limitations.
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,"The AI answer partially reflects the source evidence but lacks a clear conclusion and reasoning, and it does not fully address the correct answer provided."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,5,5,5,"The AI answer accurately reflects the source evidence and provides a clear, logical reasoning without making misleading claims."
+No-RAG Zero-shot,nrag_zs,no,3,4,4,The AI answer correctly identifies the primary association of Kell alloimmunization but does not fully align with the source evidence regarding thrombocytopenia.
+No-RAG CoT,nrag_cot,no,3,4,4,The AI answer correctly identifies the primary concern of Kell alloimmunization but does not fully address the source evidence suggesting an association with fetal thrombocytopenia.
+OpenAI RAG Zero-shot,openai_rag_zs,no,4,3,3,"The AI answer misinterprets the source evidence, which suggests an association but does not confirm causation, leading to a potentially misleading conclusion."
+OpenAI RAG CoT,openai_rag_cot,no,3,2,3,The AI answer is partially grounded in the source but lacks a complete reasoning chain and makes an unclear conclusion about the association.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,3,3,"The AI answer is somewhat consistent with the source but overstates the connection, lacking clarity and caution in clinical claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,3,The AI answer partially aligns with the source but lacks a clear conclusion and may mislead by not addressing the 'correct answer' directly.
 No-RAG Zero-shot,nrag_zs,yes,4,5,4,"The answer is mostly consistent with the source, but the source does not explicitly mention turbulent blood flow and mechanical stress as causes of haemolysis."
-No-RAG CoT,nrag_cot,yes,4,4,4,"The AI answer is mostly consistent with the source, provides a logical reasoning chain, and avoids overconfident claims, but lacks specific details from the source evidence."
-OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The AI answer is well-grounded in the source evidence, logically reasoned, and avoids overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source evidence but lacks a complete reasoning chain and does not fully address the question.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, provides a clear reasoning chain, and avoids overconfident claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source evidence but lacks a complete reasoning chain and does not fully address the question.
-No-RAG Zero-shot,nrag_zs,yes,3,3,3,The AI answer partially aligns with the source but lacks complete evidence and reasoning to support the conclusion.
-No-RAG CoT,nrag_cot,yes,3,3,4,The AI answer partially aligns with the source but lacks a complete explanation and conclusion regarding the prevention of osteoporosis as a key to eliminating symptoms.
-OpenAI RAG Zero-shot,openai_rag_zs,yes,4,4,5,"The AI answer is consistent with the source evidence and avoids overconfident claims, but it could more clearly explain the lack of direct causation or prevention strategies."
-OpenAI RAG CoT,openai_rag_cot,yes,3,2,4,"The AI answer lacks a clear conclusion and reasoning about the prevention of osteoporosis eliminating musculoskeletal symptoms, and it does not fully utilize the source evidence."
+No-RAG CoT,nrag_cot,yes,4,4,4,"The AI answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it is incomplete and could be more cautious in its clinical claims."
+OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically connects the evidence to the conclusion, and avoids overconfident claims."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer is mostly consistent with the source but lacks a complete reasoning chain and does not fully address the question.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, logically connects the evidence to the conclusion, and avoids overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,5,4,5,"The AI answer is well-grounded in the source evidence and logically suggests a link between the elephant trunk technique and haemolytic anaemia, without making overconfident claims."
+No-RAG Zero-shot,nrag_zs,yes,3,2,4,The AI answer lacks direct correlation with the source evidence and does not fully address the question about osteoporosis prevention.
+No-RAG CoT,nrag_cot,yes,3,3,3,The AI answer partially aligns with the source but lacks a complete explanation and definitive link between osteoporosis prevention and symptom elimination.
+OpenAI RAG Zero-shot,openai_rag_zs,yes,5,4,5,"The AI answer accurately reflects the source evidence, but could improve clarity in explaining the lack of causation."
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The AI answer correctly identifies the lack of direct evidence in the source but does not fully address the question's complexity.
 PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,4,4,5,"The answer is mostly consistent with the source evidence and provides a logical reasoning chain, but it could be more explicit about the lack of direct evidence for prevention strategies."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,"The AI answer lacks a clear connection between the source evidence and the conclusion, and it does not adequately address the question about osteoporosis prevention."
-No-RAG Zero-shot,nrag_zs,no,3,4,4,"The answer is partially grounded in the source, but lacks specific evidence for the claim that migration towards the heart is uncommon."
-No-RAG CoT,nrag_cot,no,3,2,3,"The AI answer partially aligns with the source but lacks clarity and completeness in reasoning, and it does not fully address the question."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,3,2,3,The AI answer lacks a clear connection to the source evidence and does not provide a logical reasoning chain to support the conclusion.
+No-RAG Zero-shot,nrag_zs,no,3,4,4,"The answer is partially grounded in the source, but lacks specific evidence for the claim that migration towards the heart is not typical."
+No-RAG CoT,nrag_cot,no,3,2,3,The AI answer lacks direct reference to the source evidence and does not clearly conclude whether foreign bodies migrate towards the heart.
 OpenAI RAG Zero-shot,openai_rag_zs,no,4,4,5,"The answer is mostly consistent with the source, but could better clarify that the source does not confirm migration towards the heart."
-OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks clarity in reasoning and does not fully address the question about migration towards the heart.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is mostly consistent with the source, provides logical reasoning, and avoids making overconfident claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,no,3,2,3,The AI answer lacks a clear conclusion and does not adequately address the question based on the source evidence.
-No-RAG Zero-shot,nrag_zs,yes,4,5,5,"The answer is mostly consistent with the source, provides a logical reasoning chain, and avoids overconfident claims."
-No-RAG CoT,nrag_cot,yes,3,2,4,The AI answer partially aligns with the evidence but lacks a complete reasoning chain and overgeneralizes the conclusion.
+OpenAI RAG CoT,openai_rag_cot,no,4,3,4,The answer is mostly consistent with the source but lacks clarity in reasoning and could be more cautious in its conclusion.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,no,4,4,5,"The answer is mostly consistent with the source and avoids overconfident claims, but could more clearly state that the source does not confirm migration towards the heart."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,no,4,3,4,The AI answer is mostly consistent with the source but lacks a clear conclusion and reasoning about the heart migration claim.
+No-RAG Zero-shot,nrag_zs,yes,4,5,5,The answer is consistent with the source evidence but could more explicitly reference the survey results.
+No-RAG CoT,nrag_cot,yes,3,2,3,The AI answer starts with a relevant concept but does not fully utilize the source evidence or complete the reasoning chain.
 OpenAI RAG Zero-shot,openai_rag_zs,yes,5,5,5,"The answer accurately reflects the source evidence, provides clear reasoning, and avoids overconfident claims."
-OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete reasoning chain and slightly overgeneralizes the findings.
-PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The answer is well-grounded in the evidence, logically reasoned, and avoids overconfident claims."
-PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks a complete reasoning chain and slightly overgeneralizes the findings.
+OpenAI RAG CoT,openai_rag_cot,yes,4,3,4,The answer is mostly consistent with the source but lacks clarity in reasoning and does not fully address the nuances of patient preferences.
+PubMedBERT RAG Zero-shot,pubmedbert_rag_zs,yes,5,5,5,"The AI answer accurately reflects the source evidence, provides clear reasoning, and avoids overconfident claims."
+PubMedBERT RAG CoT,pubmedbert_rag_cot,yes,4,4,4,"The answer is mostly consistent with the source, but it lacks a complete conclusion and slightly overgeneralizes the acceptability."
