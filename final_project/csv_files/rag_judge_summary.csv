@@ -1,5 +1,0 @@
-condition,grounding,reasoning,safety,overall
-No-RAG CoT,2.82,2.98,3.86,3.22
-No-RAG Zero-shot,3.04,3.68,3.9,3.54
-RAG CoT,3.5,2.98,4.0,3.493
-RAG Zero-shot,3.82,3.78,4.46,4.02
